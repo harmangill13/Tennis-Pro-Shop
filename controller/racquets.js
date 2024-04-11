@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 
 // SHOW
 router.get('/:index', (req, res) => {
-  res.send('hi')
+  res.render('showRacquet.ejs')
 })
 
 module.exports = router
