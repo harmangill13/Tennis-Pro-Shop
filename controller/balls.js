@@ -1,14 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-// INDEX
 router.get('/', (req, res) => {
-  res.render('racquets.ejs')
-})
-
-// SHOW
-router.get('/:index', (req, res) => {
-  res.send('hi')
+  res.send('balls')
 })
 
 module.exports = router

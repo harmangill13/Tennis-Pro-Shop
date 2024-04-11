@@ -7,10 +7,12 @@ const PORT = process.env.PORT
 // CONTROLLERS
 const racquetsController = require('./controller/racquets.js')
 app.use('/racquets', racquetsController)
+const ballsController = require('./controller/balls.js')
+app.use('/balls', ballsController)
 
 // ROUTES
 app.get('/home', (req, res) => {
-  res.send('hi')
+  res.render('home.ejs')
 })
 
 // SERVER CONNECTION
