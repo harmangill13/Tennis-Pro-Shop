@@ -1,5 +1,11 @@
 <%- include('header.ejs') %>
 <h1>Community Listings</h1>
-
+<form action="/listings" method="POST">
+  Listing Name: <input type="text" name="listingName" /><br/>
+  Author Name: <input type="text" name="name" /><br/>
+  Description: <input type="text" name="description" /><br/>
+  Price: <inpust type="number" name="price" /><br/>
+  <input type="submit" name="" value="Create Post" />
+</form>
 
 <%- include('footer.ejs') %>
