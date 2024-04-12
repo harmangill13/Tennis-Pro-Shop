@@ -5,6 +5,9 @@ const mongoose = require('mongoose')
 const mongoURI = process.env.MONGO_URI
 const PORT = process.env.PORT
 
+// MIDDLEWARE
+app.use(express.urlencoded({extended: true}))
+app.use(express.static('public'))
 
 // CONTROLLERS
 const racquetsController = require('./controller/racquets.js')

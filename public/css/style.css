@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.navbar {
+  color: rgb(214, 214, 214);
+  margin: 0 auto;
+  opacity: 0.9;
+  background-color: rgb(50, 50, 50);
+
+}
+
+.navbar ul{
+  overflow: hidden;
+  
+}
+
+.navbar a{
+  display: block;
+}
+
+.navbar li{
+  float: left;
+  
+}
+
+.navbar a:hover {
+  background-color: rgb(36, 36, 36);
+}
