@@ -1,5 +1,21 @@
 <%- include('header.ejs') %>
 <h1>Community Listings</h1>
+<nav>
+  <button><a href="/listings/new" id="newListing"> Create New Listing</a></button>
+</nav>
 
+<ul class="listings">
+  <% for (let i = 0; i < listings.length; i++) { %>
+    <li>
+      <a href="/listings/<%=i%>">
+        <%=listings[i].listingName%></br>
+        <img src="<%=listings[i].img%>" class="listingImg"></br>
+        <%=listings[i].authorName%></br>
+        <%=listings[i].description%></br>
+        <%=listings[i].price%></br>
+      </a>
+    </li>
+  <% } %>
+</ul>
 
 <%- include('footer.ejs') %>

@@ -39,3 +39,15 @@ h1 {
 .navbar a:hover {
   background-color: rgb(36, 36, 36);
 }
+
+#newListing {
+  color: black;
+}
+
+.listings a{
+  color: black;
+}
+
+.listingImg {
+  width: 400px;
+}

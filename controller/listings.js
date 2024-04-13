@@ -3,8 +3,11 @@ const router = express.Router()
 const Listing = require('../models/listings.js')
 
 // INDEX
-router.get('/', (req, res) => {
-  res.render('listings.ejs')
+router.get('/', async (req, res) => {
+  const foundListings = await Listing.find({})
+  res.render('listings.ejs', {
+    listings: foundListings
+  })
 })
 
 // NEW
@@ -23,7 +26,7 @@ router.post('/', async (req, res) => {
   console.log(req.body)
   try {
     const newListing = await Listing.create(req.body)
-    res.send(newListing)
+    res.redirect('/listings')
   } catch (err) {
     console.log('ERROR WITH LISTINGS POST', err)
     res.status(500).send(err)
