@@ -144,7 +144,7 @@ const racquetsSeed = [
     quantity: 2,
   },
   {
-    name: 'YouTek IG Challenge Lite Pink (Pre-Strung)',
+    name: 'YouTek IG Challenge Lite Pink',
     brandName: 'Head',
     img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HEAD_233922_IGChallengeLite_1_360x.jpg?v=1657829957',
     description: "The Head Challenge Pink Lite gives players a great combination of spin and power. The Challenge MP is perfect for players that play recreational tennis on the weekend but still want to perform well.",
@@ -152,7 +152,7 @@ const racquetsSeed = [
     quantity: 10,
   },
   {
-    name: 'IG Challenge MP (Pre-Strung)',
+    name: 'IG Challenge MP',
     brandName: 'Head',
     img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/234731_HEAD_IG_Challenge_MP_Orange_Profile_360x.jpg?v=1649960596',
     description: "The Head Challenge MP gives players a great combination of spin and power. The Challenge MP is perfect for players that play recreational tennis on the weekend but still want to perform well.",

@@ -1,3 +1,26 @@
+/* Racquets */
+.racquets {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.individualRacquets {
+  border: 2px solid lightgray;
+  display: block;
+  height: auto;
+  
+}
+
+.racquetImg {
+  width: 300px;
+}
+
+.racquets a{
+  color: black;
+}
+
 li {
   list-style-type: none;
   text-decoration: none;
