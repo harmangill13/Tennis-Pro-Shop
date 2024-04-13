@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 
 // NEW
 router.get('/new', (req, res) => {
-  res.render('listings.ejs')
+  res.render('newListings.ejs')
 })
 
 // SHOW
