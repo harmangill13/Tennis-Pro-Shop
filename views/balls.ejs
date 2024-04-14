@@ -1,6 +1,20 @@
 <%- include('header.ejs') %>
 
-<h1>Tennis Balls</h1>
 
+<h1>Tennis Balls</h1>
+<ul class="balls">
+  <% for (let i = 0; i < balls.length; i++) { %>
+    <li  class="individualListing">
+      <a href="/balls/<%=i%>">
+        <%=balls[i].name%></br>
+        <%=balls[i].brandName%></br>
+        <img src="<%=balls[i].img%>" class="ballsImg"></br>
+   
+        Price: $<%=balls[i].price%></br>
+        Quantity: <%=balls[i].quantity%></br>
+      </a>
+    </li>
+  <% } %>
+</ul>
 
 <%- include('footer.ejs') %>

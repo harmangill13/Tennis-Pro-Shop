@@ -2,11 +2,11 @@
 <h1>Racquets</h1>
 <ul class="racquets">
   <% for (let i = 0; i < racquets.length; i++) { %>
-    <li  class="individualRacquets">
+    <li  class="individualListing">
       <a href="/racquets/<%=i%>">
         <%=racquets[i].name%></br>
         <%=racquets[i].brandName%></br>
-        <img src="<%=racquets[i].img%>" class="racquetImg"></br>
+        <img src="<%=racquets[i].img%>" class="Img"></br>
    
         Price: $<%=racquets[i].price%></br>
         Quantity: <%=racquets[i].quantity%></br>

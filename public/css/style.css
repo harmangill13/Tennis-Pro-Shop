@@ -6,19 +6,36 @@
   
 }
 
-.individualRacquets {
+.individualListing {
   border: 2px solid lightgray;
   display: block;
   height: auto;
   
 }
 
-.racquetImg {
+.Img {
   width: 300px;
 }
 
 .racquets a{
   color: black;
+}
+
+/* Tennis Balls */
+.balls {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.balls a{
+  color: black;
+}
+
+.ballsImg {
+  width: 300px;
+  padding: 80px;
 }
 
 li {

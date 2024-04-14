@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
 const Product = require('../models/product.js')
-const racquetsSeed = require('../seedData.js')
+const seedData = require('../seedData.js')
 
 // INDEX
 router.get('/', async (req, res) => {
-  const foundRacquets = await Product.find({})
+  const foundRacquets = await Product.find({type: 'racquet'})
   res.render('racquets.ejs', {
     racquets: foundRacquets
   })
@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
 
 // SEED
 router.get('/seed', async (req, res) => {
-  const racquets = await Product.create(racquetsSeed)
+  const racquets = await Product.create(seedData)
   res.redirect('/racquets')
 })
 
