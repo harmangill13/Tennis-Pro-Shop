@@ -1,26 +1,38 @@
 /* ======== */
+/* Item Cards */
+/* ======== */
+.individualListing {
+
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  min-width: 250px;;
+  max-height: 320px;
+  padding: 10px;
+  text-align: center;
+  font-family: arial;
+}
+/* ======== */
 /* Racquets */
 /* ======== */
 .racquets {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
+  gap: 25px;
 }
 
-.individualListing {
-  border: 2px solid lightgray;
-  display: block;
-  height: auto;
-  
-}
 
 .Img {
-  width: 300px;
+  width: 200px;
 }
 
 .racquets a{
   color: black;
+  font-size: 14px;
 }
 /* ============== */
 /* Tennis Balls */
@@ -29,16 +41,17 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
+  gap: 25px;
 }
 
 .balls a{
   color: black;
+  font-size: 14px;
 }
 
 .ballsImg {
-  width: 300px;
-  padding: 80px;
+  width: 150px;
+  
 }
 
 /* ============== */
@@ -48,12 +61,32 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .shoes a{
   color: black;
+  font-size: 14px;
 }
 
+/* ============== */
+/* Apparel */
+/* ============== */
+.apparel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.apparel a{
+  color: black;
+  font-size: 12px;
+}
+
+.apparelImg {
+  width: 180px;
+}
 
 
 li {

@@ -12,10 +12,10 @@ router.get('/', async (req, res) => {
 })
 
 // SEED
-router.get('/seed', async (req, res) => {
-  const balls = await Product.create(seedData)
-  res.redirect('/balls')
-})
+// router.get('/seed', async (req, res) => {
+//   const balls = await Product.create(seedData)
+//   res.redirect('/balls')
+// })
 
 // SHOW
 router.get('/:index', async (req, res) => {

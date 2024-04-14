@@ -4,6 +4,7 @@
 <h1>Tennis Balls</h1>
 <ul class="balls">
   <% for (let i = 0; i < balls.length; i++) { %>
+    <div class="card">
     <li  class="individualListing">
       <a href="/balls/<%=i%>">
         <%=balls[i].name%></br>
@@ -14,6 +15,7 @@
         Quantity: <%=balls[i].quantity%></br>
       </a>
     </li>
+    </div>
   <% } %>
 </ul>
 

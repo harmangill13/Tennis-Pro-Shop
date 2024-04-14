@@ -2,6 +2,7 @@
 <h1>Racquets</h1>
 <ul class="racquets">
   <% for (let i = 0; i < racquets.length; i++) { %>
+    <div class="card">
     <li  class="individualListing">
       <a href="/racquets/<%=i%>">
         <%=racquets[i].name%></br>
@@ -12,6 +13,7 @@
         Quantity: <%=racquets[i].quantity%></br>
       </a>
     </li>
+    </div>
   <% } %>
 </ul>
 <%- include('footer.ejs') %>

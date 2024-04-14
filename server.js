@@ -40,3 +40,8 @@ db.on('disconnected', () => console.log('mongo disconnected'))
 app.listen(PORT, () => {
   console.log(`listening on ${PORT}`)
 })
+
+// POST MVP //
+// - Add carousel
+// - Look into creating a filter by brand button
+// - Look into sort by price High to low and low-high buttons

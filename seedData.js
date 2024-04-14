@@ -323,6 +323,114 @@ const seedData = [
     quantity: 5,
     type: 'shoes'
   },
+  {
+    name: "Adidas Men's Club 3-Stripe Polo (Green)",
+    brandName: 'Adidas',
+    img: 'https://racquetguys.ca/cdn/shop/files/IA9509_2_APPAREL_3D-Rendering_FrontView_transparent_180x.jpg?v=1683314742',
+    description: "Style and performance for the tennis court. Part of the adidas Club collection, this polo shirt will keep you comfortable when you need to be on top of your game. Extra material under the arm ensures you have a full range of motion for booming forehands. Moisture-absorbing AEROREADY and breathable mesh panels keep you confident all the way to match point. Made with 100% recycled materials, this product represents just one of our solutions to help end plastic waste.",
+    price: 59.95,
+    quantity: 10,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Men's Freelift Top (Blue)",
+    brandName: 'Adidas',
+    img: 'https://racquetguys.ca/cdn/shop/files/IA8288_2_APPAREL_3D-Rendering_FrontView_transparent_180x.jpg?v=1683317310',
+    description: "Created by adidas to give you the edge. Part of the performance-driven Gameset collection, this slim-fitting tee was designed for confident tennis. Its FreeLift design keeps the back hem in place through every serve and smash, and the stretchy fabric helps you reach for shots. Even when you're in top gear, HEAT.RDY ensures you stay cool and confident right up to match point.",
+    price: 79.95,
+    quantity: 5,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Men's Club 3 Stripes Shorts (Black/White)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/GL5411_APP_on-model_walking_white_180x.png?v=1624455906',
+    description: "Country club style with a contemporary twist. Showing off horizontal 3-Stripes on one leg, these adidas Club tennis shorts are built for comfort. Soft, ventilated fabric keeps you dry when you're moving around the court. A mesh gusset adds ventilation as well as giving you the mobility to reach every return. This product is made with Primegreen, a series of high-performance recycled materials.",
+    price: 55.00,
+    quantity: 10,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Women's London Y-Dress (White)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HT5947_1_APPAREL_Photography_FrontView_white_180x.jpg?v=1651578991',
+    description: "Serve for the oceans in a tennis dress that puts the problem of plastic waste under the microscope. Part of an adidas collection created for the green grass of South-West London, its Morse Code-inspired details tap out a message about the plight of adidas blue planet. Focused on comfort, this dress has a super-soft feel and includes moisture-wicking AEROREADY. Its Y-strap is ergonomically designed to give you room to play your all action game. This garment is made with a yarn which contains 50% Parley Ocean Plastic — reimagined plastic waste, intercepted on remote islands, beaches, coastal communities and shorelines, preventing it from polluting our ocean. This garment contains at least 40% recycled content in total.",
+    price: 140.00,
+    quantity: 20,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Women's Paris Head.Rdy Tennis Y-Tank Dress (Black)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HA7628_4_APPAREL_OnModel_StandardView_white_180x.jpg?v=1648498783',
+    description: "As cool on the court as it is on a Parisian boulevard. This adidas tennis dress with separate tights has a Y-shaped back and HEAT.RDY to make it a comfortable wear on the hottest of days. Made from soft, cool fabric and sporting the design DNA of the French capital,  its bold back print celebrates the botanical gardens that surround Roland Garros stadium. This garment is made with a yarn which contains 50% Parley Ocean Plastic — reimagined plastic waste, intercepted on remote islands, beaches, coastal communities and shorelines, preventing it from polluting our ocean. This garment contains at least 40% recycled content in total.",
+    price: 120.00,
+    quantity: 15,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Women's Club Tank Top (Pink)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HZ4280_2_APPAREL_Photography_FrontCenterView_transparent_180x.jpg?v=1673028239',
+    description: "The adidas Women's Club Tank is a great choice for any day on the court. It has a high cut neckline, a racerback for full range of motion, a streamlined fit, binding on the neck and armholes, AEROREADY moisture wicking technology, and an adidas logo on center chest.",
+    price: 44.95,
+    quantity: 10,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Women's Club Skirt (White)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HS1455_3_APPAREL_OnModel_StandardView_transparent_180x.jpg?v=1674496489',
+    description: "The adidas Club collection adds bright colors in timeless designs to your wardrobe. The Club tennis skirt features a wide color-contrast waistband and a curved hem with a left-side slit. Available in a variety of colors, this skirt is great for mixing and matching. Made with Primegreen recycled materials containing high performance AEROREADY technology.",
+    price: 54.95,
+    quantity: 3,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Women's tennis Primeblue Aeroknit Match Skirt (Black)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/H31425_APP_virtual_thumbnail_white_180x.jpg?v=1685122478',
+    description: "Country club style with a contemporary twist. This adidas Club skirt has textured fabric and a straight silhouette that'll go with every tennis top in your wardrobe. Moisture-managing Aeroready will keep you dry through the fiercest rallies. Integrated tights add coverage for confidence on court. This product is made with Primegreen, a series of high-performance recycled materials.",
+    price: 84.95,
+    quantity: 2,
+    type: 'apparel'
+  },
+  {
+    name: "Asics Men's Club Polo (Red)",
+    brandName: 'Asics',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/2041A071_600_GM_FT_1280x1280_JPG_1_180x.jpg?v=1570740143',
+    description: "Dress in style for your next practice session or your next big match. A classic polo never goes out of style. It features button up placket and Asics spiral logo above the right chest. With the split hem on the sleeves, it provides larger range of movement  so you put the ball in your opponent's court with ease.",
+    price: 54.95,
+    quantity: 10,
+    type: 'apparel'
+  },
+  {
+    name: "Nike Men's Dri-FIT Adavantage 7-inch Short (White)",
+    brandName: 'Nike',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/unnamed_b045ebff-9063-49f5-9807-d56e5829fd06_180x.jpg?v=1709156226',
+    description: "Keep your game sharp all year round with the NikeCourt Advantage Shorts. Stretchy and breathable, they help you stay cool whether you're in the middle of a match or perfecting your serve. The pockets make sure you can securely store tennis balls, while not distracting from your play.",
+    price: 80.00,
+    quantity: 10,
+    type: 'apparel'
+  },
+  {
+    name: "Nike Women's Dri-FIT Advantage Novelty Tank (Pink)",
+    brandName: 'Nike',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/unnamed_39_ebbd25a3-ca74-4006-967b-023e14dd8a42_180x.jpg?v=1671045014',
+    description: "The Nike Dri-FIT Advantage Tank has a strappy design that's paired with a stretchy ribbed fabric underlay. The result is a unique, mixed-material look that's perfect for styling on and off the court. This product is made from at least 75% recycled polyester fibres.",
+    price: 49.95,
+    quantity: 5,
+    type: 'apparel'
+  },
+  {
+    name: "Adidas Men's FreeLift Printed Top (Blue)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/HT7201_3_APPAREL_OnModel_StandardView_transparent_180x.jpg?v=1677164367',
+    description: "Created by adidas to give you the edge. Part of the performance-driven Gameset collection, this slim-fitting tee was designed for confident tennis. Its FreeLift design keeps the back hem in place through every serve and smash, and the stretchy fabric helps you reach for shots. Even when you're in top gear, HEAT.RDY ensures you stay cool and confident right up to match point.",
+    price: 79.95,
+    quantity: 10,
+    type: 'apparel'
+  },
 ]
 
 module.exports = seedData

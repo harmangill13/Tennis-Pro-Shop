@@ -2,6 +2,7 @@
 <h1>Shoes</h1>
 <ul class="shoes">
   <% for (let i = 0; i < shoes.length; i++) { %>
+    <div class="card">
     <li  class="individualListing">
       <a href="/shoes/<%=i%>">
         <%=shoes[i].name%></br>
@@ -11,6 +12,7 @@
         Price: $<%=shoes[i].price%></br>
       </a>
     </li>
+    </div>
   <% } %>
 </ul>
 
