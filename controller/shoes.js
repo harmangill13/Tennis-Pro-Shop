@@ -1,14 +1,28 @@
 const express = require('express')
 const router = express.Router()
 const Product = require('../models/product.js')
+const seedData = require('../seedData.js')
 
 // INDEX
-router.get('/', (req, res) => {
-  res.render('shoes.ejs')
+router.get('/', async (req, res) => {
+  const foundShoes = await Product.find({type: 'shoes'})
+  res.render('shoes.ejs', {
+    shoes: foundShoes
+  })
 })
 
-router.get('/:index', (req, res) => {
-  res.render('showShoes.ejs')
+// SEED
+router.get('/seed', async (req, res) => {
+ const shoes = await Product.create(seedData)
+  res.redirect('/shoes')
+})
+
+// SHOW
+router.get('/:index', async (req, res) => {
+  const foundShoes = await Product.findById(req.params.id)
+  res.render('showShoes.ejs', {
+    shoes: foundShoes
+  })
 })
 
 module.exports = router

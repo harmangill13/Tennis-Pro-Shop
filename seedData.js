@@ -224,6 +224,105 @@ const seedData = [
     quantity: 30,
     type: 'balls'
   },
+  {
+    name: "Head Sprint Pro 3.5 SF Men's Tennis Shoe (Black)",
+    brandName: 'Head',
+    img: 'https://racquetguys.ca/cdn/shop/products/Presentation-273002_Sprint_Pro_3.5_SF_BKOR_1_180x.jpg?v=1674761523',
+    description: "For the competitive player looking for a speedy-feel, and a low to the court ride, the Head Sprint Pro 3.5 SF delivers! This update to the successful Sprint Pro franchise, features an all new engineered mesh, and new tongue material, which enhances the comfort, as well as a more accommodating fit than previous iterations. Superfabric material in the forefoot region gives this version even more durability and protection around the toes, and also makes for added support. The sock support system help to hug the foot like a glove, while the Tri-Nrg in the midsole provides a good blend of cushion and responsiveness. Head's trusty Hybrasion+ rubber compound is formed into a hybrid tread pattern for great traction, on a variety of court surfaces.",
+    price: 199.95,
+    quantity: 10,
+    type: 'shoes'
+  },
+  {
+    name: "Head Spint Pro 3.5 Women's Tennis Shoe (White)",
+    brandName: 'Head',
+    img: 'https://racquetguys.ca/cdn/shop/products/274062_SPRINTPRO3.5WOMENWHIR_1_180x.jpg?v=1648576193',
+    description: "As you move fast in the Head Sprint Pro 3.5 tennis shoe, you'll be enjoying the lightweight comfort of a shoe made with a new engineered mesh and new tongue material. The Head Sprint Pro 3.5 also features a cooling system that promotes breathability. The upgrade also includes a new TPU heel counter, and a design refresh to keep you looking sharp on court.",
+    price: 179.95,
+    quantity: 10,
+    type: 'shoes'
+  },
+  {
+    name: "Head Sprint Pro 3.5 Clay Women's Tennis Shoe (Navy)",
+    brandName: 'Head',
+    img: 'https://racquetguys.ca/cdn/shop/products/Presentation-274113_Sprint_Pro_3.5_Clay_Women_DBAZ_1_180x.jpg?v=1675457654',
+    description: "The Head Sprint Pro 3.5 Clay is an awesome option for the serious competitors looking to make moves on the court. Made from a breathable and light material, the one-piece tongue and upper material provide step in comfort and ventilation from the very first wear. Feel connected to the court as the Delta Strap construction helps with added stability as this low profile shoe features a full herringbone outsole for great traction on clay courts. Speedy, stylish and supportive.",
+    price: 179.95,
+    quantity: 5,
+    type: 'shoes'
+  },
+  {
+    name: "Head Revolt Evo 2.0 Men's Tennis Shoe (white/grey)",
+    brandName: 'Head',
+    img: 'https://racquetguys.ca/cdn/shop/products/revolt-evo-2-0-men-whgr-_5_180x.jpg?v=1658951854',
+    description: "Experience pure comfort in the new REVOLT EVO 2.0 men’s shoe with plenty of cushioning, padding and flexibility as well as an extra-wide fit.",
+    price: 139.95,
+    quantity: 5,
+    type: 'shoes'
+  },
+  {
+    name: "Yonex Power Cushion Sonicage 3 Men's Tennis Shoe (Black)",
+    brandName: 'Yonex',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/Yonex_Sonicage_3_Black_Mens_Tennis_Shoe_1_180x.jpg?v=1706897545',
+    description: "This Yonex Power Cushion Sonicage 3 balances comfort, and support for all movements on the court. This third generation of the Sonicage features an all new upper design for added comfort, and increased durability on aggressive movements. The Power Graphite plate in the middle portion of the shoe helps to maximize stability, while cutting down on extra weight. The Power Cushion + midsole helps absorb shock while offering a plush feel underfoot. Yonex also equips this shoe with their Roundsole technology, for a smoother transition while sprinting around the court. The durable rubber outsole offers a high level of traction on all court surfaces.",
+    price: 159.00,
+    quantity: 7,
+    type: 'shoes'
+  },
+  {
+    name: "Yonex Power Cushion Sonicage 3 Women's Tennis Shoe (Pink)",
+    brandName: 'Yonex',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/shts3lac_630-3_180x.jpg?v=1682455890',
+    description: "Created to absorb harsh court shock but also help with an explosive underfoot feel, this light shoe is ideal for recreational and club players as it provides a responsive midsole and a seamless upper for comfort, support and breathability. The Power Cushion+ midsole helps absorb shock while offering a plush feel underfoot. Once laced up, you will feel snug and confident as the rubber outsole offers a good amount of traction and durability for all court surfaces.",
+    price: 159.00,
+    quantity: 4,
+    type: 'shoes'
+  },
+  {
+    name: "Adizero Ubersonic 4 Men's Tennis Shoe (Beam Green)",
+    brandName: 'Adidas',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/products/GW6793_1_FOOTWEAR_Photography_SideLateralCenterView_white_180x.jpg?v=1664297285',
+    description: "The adidas Adizero Ubersonic 4 tennis shoe gets updated for more speed with the same lightweight design you expect from the series. Featuring a 360 knit mesh upper, the Ubersonic 4 hugs and forms to your foot without causing any restrictions to your movement. The knit upper is also very breathable, letting your feet breath on hot days in the sun. Internal reinforcements provide stability for side-to-side movements so you can move quickly and confidently. The low-to-the-ground design features Lightstrike, a low profile cushioning that's very comfortable and keeps you connected to each step on the court.",
+    price: 139.95,
+    quantity: 1,
+    type: 'shoes'
+  },
+  {
+    name: "Asics Gel Resolution 9 London Wimbledon Edition Men's Tennis Shoe (Blue/Red)",
+    brandName: 'Asics',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/1041A443_400_SR_RT_GLB_PNG_1280x1280-JPG_180x.jpg?v=1689281857',
+    description: "The Asics London Wimbledon Edition GEL-RESOLUTION™ 9 tennis shoe creates advanced stability and cushioning for players who like to control the game from the baseline. ​ DYNAWALL™ technology in the midsole now extends into the heel for added stability during lateral movements. It's a functional feature that's effective when you're running covering both sides of the baseline.​DYNAWRAP™ technology in the eyestay has been strategically redesigned to apply pressure when extra support is needed. This allows you to experience a locked-in feel when you're making quick transitions.​ Lastly, the full-length outsole and separated heel help produce a more stable landing for quicker recoveries in between shots.",
+    price: 199.95,
+    quantity: 2,
+    type: 'shoes'
+  },
+  {
+    name: "Asics Gel Resolution 9 X HUGO BOSS Men's Tennis Shoe (White/Black)",
+    brandName: 'Asics',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/1041A453_100_SR_RT_GLB_180x.jpg?v=1704897204',
+    description: "The GEL-RESOLUTION® 9 X HUGO BOSS tennis shoe creates advanced stability and cushioning for players who like to control the game from the baseline. ​​DYNAWALL™ technology in the midsole now extends into the heel for added stability during lateral movements. It's a functional feature that's effective when you're running covering both sides of the baseline.​DYNAWRAP™ technology in the eyestay has been strategically redesigned to apply pressure when extra support is needed. This allows you to experience a locked-in feel when you're making quick transitions.​Lastly, the full-length outsole and separated heel help produce a more stable landing for quicker recoveries in between shots.",
+    price: 199.95,
+    quantity: 2,
+    type: 'shoes'
+  },
+  {
+    name: "Asics Gel Challenger 14 Men's Tennis Shoe (White/Black)",
+    brandName: 'Asics',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/1041A405_101_SR_RT_GLB_PNG_1280x1280-JPG_1_180x.jpg?v=1687277783',
+    description: "The GEL-CHALLENGER™ 14 tennis shoe creates the stability you need when you're covering the baseline, so you can keep your mind focused on controlling the point.​The shoe's supportive upper keeps your feet locked-in on the shoe's platform. It creates a reinforced feel during volleys or when you're dropping back to track down deep lob shots.​DYNAWING™ technology is placed in the sidewall to improve stability during side-to-side movements. This feature offers good support, so you can step into your shot and stroke the ball with more pace.​The outsole also features a separated heel construction to help you experience better stability during abrupt landings.",
+    price: 159.95,
+    quantity: 10,
+    type: 'shoes'
+  },
+  {
+    name: "Asics Gel Game 9 Women's Tennis Shoe (Pale Mint)",
+    brandName: 'Asics',
+    img: 'https://cdn.shopify.com/s/files/1/0009/8235/1923/files/1042A211_300_SR_RT_GLB_PNG_1280x1280-JPG_180x.jpg?v=1694117465',
+    description: "Both durable and comfortable, the Gel Game 9 tennis shoe is versatile for the recreational athlete who’s playing several times per week. Preserving its excellent support properties, our focus this season was to improve the shoe's ventilation and flexibility. Featuring an open mesh design on the upper to improve airflow and keep feet cool, this shoe is complemented with synthetic leather overlays and a PU (polyurethane) film that offers improved stability when making abrupt transitions.",
+    price: 119.95,
+    quantity: 5,
+    type: 'shoes'
+  },
 ]
 
 module.exports = seedData

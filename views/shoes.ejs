@@ -1,5 +1,17 @@
 <%- include('header.ejs') %>
 <h1>Shoes</h1>
-
+<ul class="shoes">
+  <% for (let i = 0; i < shoes.length; i++) { %>
+    <li  class="individualListing">
+      <a href="/shoes/<%=i%>">
+        <%=shoes[i].name%></br>
+   
+        <img src="<%=shoes[i].img%>" class="shoeImg"></br>
+   
+        Price: $<%=shoes[i].price%></br>
+      </a>
+    </li>
+  <% } %>
+</ul>
 
 <%- include('footer.ejs') %>
