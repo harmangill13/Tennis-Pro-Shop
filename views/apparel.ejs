@@ -2,14 +2,14 @@
 <h1>Apparel</h1>
 
 <ul class="apparel">
-  <% for (let i = 0; i < apparel.length; i++) { %>
+  <% for (let i = 0; i < apparels.length; i++) { %>
     <div class="card">
     <li  class="individualListing">
-      <a href="/apparel/<%=i%>">
-        <img src="<%=apparel[i].img%>" class="apparelImg"></br>
-        <%=apparel[i].name%></br>
-        <%=apparel[i].brandName%></br>
-        <p class="price">Price: $<%=apparel[i].price%></p></br>
+      <a href="/apparel/<%=apparels[i].id%>">
+        <img src="<%=apparels[i].img%>" class="apparelImg"></br>
+        <%=apparels[i].name%></br>
+        <%=apparels[i].brandName%></br>
+        <p class="price">Price: $<%=apparels[i].price%></p></br>
  
       </a>
     </li>

@@ -6,9 +6,9 @@ const seedData = require('../seedData.js')
 
 // INDEX
 router.get('/', async (req, res) => {
-  const apparelFound = await Product.find({type: 'apparel'})
+  const foundApparels = await Product.find({type: 'apparel'})
   res.render('apparel.ejs', {
-    apparel: apparelFound
+    apparels: foundApparels
   })
 })
 
@@ -19,10 +19,10 @@ router.get('/', async (req, res) => {
 // })
 
 // SHOW
-router.get('/:index', async (req, res) => {
-  const apparelFound = await Product.find(req.params.id)
+router.get('/:id', async (req, res) => {
+  const foundApparel = await Product.findById(req.params.id)
   res.render('showApparel.ejs', {
-    apparel: apparelFound
+    apparel: foundApparel
   })
 })
 

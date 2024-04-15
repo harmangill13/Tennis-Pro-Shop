@@ -4,7 +4,7 @@
   <% for (let i = 0; i < shoes.length; i++) { %>
     <div class="card">
     <li  class="individualListing">
-      <a href="/shoes/<%=i%>">
+      <a href="/shoes/<%=shoes[i].id%>">
         <%=shoes[i].name%></br>
    
         <img src="<%=shoes[i].img%>" class="shoeImg"></br>

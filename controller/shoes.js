@@ -18,10 +18,10 @@ router.get('/', async (req, res) => {
 // })
 
 // SHOW
-router.get('/:index', async (req, res) => {
-  const foundShoes = await Product.findById(req.params.id)
+router.get('/:id', async (req, res) => {
+  const foundShoe = await Product.findById(req.params.id)
   res.render('showShoes.ejs', {
-    shoes: foundShoes
+    shoe: foundShoe
   })
 })
 
