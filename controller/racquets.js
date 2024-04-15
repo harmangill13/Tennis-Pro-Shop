@@ -18,10 +18,10 @@ router.get('/', async (req, res) => {
 // })
 
 // SHOW
-router.get('/:index', async (req, res) => {
-  const foundRacquets = await Product.findById(req.params.id)
+router.get('/:id', async (req, res) => {
+  const foundRacquet = await Product.findById(req.params.id)
   res.render('showRacquet.ejs', {
-    racquets: foundRacquets
+    racquet: foundRacquet
   })
 })
 
