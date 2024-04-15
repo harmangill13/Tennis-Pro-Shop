@@ -1,10 +1,12 @@
 <%- include('header.ejs') %>
-<h1><%=ball.name %></h1>
-<img src="<%=ball.img%>" class="Img"></br>
-<%=ball.brandName%></br>   
-Price: $<%=ball.price%></br>
-Quantity: <%=ball.quantity%></br>
-Description: <%=ball.description%></br>
+<div class="showDiv">
+  <h1><%=ball.name %></h1>
+  <img src="<%=ball.img%>" class="showImg"></br>
+  <%=ball.brandName%></br>   
+  Price: $<%=ball.price%></br>
+  Quantity: <%=ball.quantity%></br>
+  <a class="description">Description:</a> <%=ball.description%></br>
+</div>
 
 
 

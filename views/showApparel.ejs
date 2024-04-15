@@ -1,10 +1,11 @@
 <%- include('header.ejs') %>
-<h1><%=apparel.name %></h1>
-<img src="<%=apparel.img%>" class="Img"></br>
-<%=apparel.brandName%></br>   
-Price: $<%=apparel.price%></br>
-Quantity: <%=apparel.quantity%></br>
-Description: <%=apparel.description%></br>
-
+<div class="showDiv">
+  <h1><%=apparel.name %></h1>
+  <img src="<%=apparel.img%>" class="showImg"></br>
+  <%=apparel.brandName%></br>   
+  Price: $<%=apparel.price%></br>
+  Quantity: <%=apparel.quantity%></br>
+  <a class="description"> Description:</a> <%=apparel.description%></br>
+</div>
 
 <%- include('footer.ejs') %>

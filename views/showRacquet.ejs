@@ -1,9 +1,10 @@
 <%- include('header.ejs') %>
-<h1><%=racquet.name %></h1>
-<img src="<%=racquet.img%>" class="Img"></br>
-<%=racquet.brandName%></br>   
-Price: $<%=racquet.price%></br>
-Quantity: <%=racquet.quantity%></br>
-Description: <%=racquet.description%></br>
-
+<div class="showDiv">
+  <h1><%=racquet.name %></h1>
+  <img src="<%=racquet.img%>" class="showImg"></br>
+  <%=racquet.brandName%></br>   
+  Price: $<%=racquet.price%></br>
+  Quantity: <%=racquet.quantity%></br>
+  <a class="description">Description:</a> <%=racquet.description%></br>
+</div>
 <%- include('footer.ejs') %>
