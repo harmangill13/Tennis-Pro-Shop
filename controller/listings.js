@@ -31,6 +31,16 @@ router.get('/:id/edit', async (req, res) => {
   })
 })
 
+// Edit Put route
+router.put('/:id', async (req, res) => {
+  try {
+    const updateListing = await Listing.findByIdAndUpdate(req.params.id, req.body)
+    res.redirect('/listings/' + updateListing.id)
+  } catch (err) {
+    console.log("ERROR IN EDIT ROUTE ", err)
+    res.status(500).send(err)
+  }
+})
 
 // CREATE
 router.post('/', async (req, res) => {
