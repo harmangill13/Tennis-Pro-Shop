@@ -31,6 +31,19 @@ router.get('/:id/edit', async (req, res) => {
   })
 })
 
+// CREATE
+router.post('/', async (req, res) => {
+  console.log(req.body)
+  try {
+    const newListing = await Listing.create(req.body)
+    res.redirect('/listings')
+  } catch (err) {
+    console.log('ERROR WITH LISTINGS POST', err)
+    res.status(500).send(err)
+
+  }
+})
+
 // Edit Put route
 router.put('/:id', async (req, res) => {
   try {
@@ -42,16 +55,15 @@ router.put('/:id', async (req, res) => {
   }
 })
 
-// CREATE
-router.post('/', async (req, res) => {
-  console.log(req.body)
+// Delete Route
+router.delete('/:id', async (req, res) => {
   try {
-    const newListing = await Listing.create(req.body)
+    const listing = await Listing.findByIdAndDelete(req.params.id)
+    console.log(`Deleted listing: ${listing}`)
     res.redirect('/listings')
   } catch (err) {
-    console.log('ERROR WITH LISTINGS POST', err)
+    console.log("ERROR ON DELETE REQUEST: ", err)
     res.status(500).send(err)
-
   }
 })
 
