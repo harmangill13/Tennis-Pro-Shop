@@ -16,8 +16,19 @@ router.get('/new', (req, res) => {
 })
 
 // SHOW
-router.get('/:index', (req, res) => {
-  res.render('showListings.ejs')
+router.get('/:id', async (req, res) => {
+  const foundListing = await Listing.findById(req.params.id)
+  res.render('showListings.ejs', {
+    listing: foundListing
+  })
+})
+
+// EDIT
+router.get('/:id/edit', async (req, res) => {
+  const foundListing = await Listing.findById(req.params.id)
+  res.render('editListings.ejs', {
+    listing: foundListing
+  })
 })
 
 

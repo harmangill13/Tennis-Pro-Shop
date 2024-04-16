@@ -1,4 +1,5 @@
 const express = require('express')
+const methodOverride = require('method-override')
 const app = express()
 require('dotenv').config()
 const mongoose = require('mongoose')
@@ -7,6 +8,7 @@ const PORT = process.env.PORT
 
 // MIDDLEWARE
 app.use(express.urlencoded({extended: true}))
+app.use(methodOverride('_method'))
 app.use(express.static('public'))
 
 // CONTROLLERS

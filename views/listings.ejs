@@ -7,7 +7,7 @@
 <ul class="listings">
   <% for (let i = 0; i < listings.length; i++) { %>
     <li>
-      <a href="/listings/<%=i%>">
+      <a href="/listings/<%=listings[i].id%>">
         <%=listings[i].listingName%></br>
         <img src="<%=listings[i].img%>" class="listingImg"></br>
         <%=listings[i].authorName%></br>

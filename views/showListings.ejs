@@ -1,5 +1,14 @@
 <%- include('header.ejs') %>
+<h1><%=listing.listingName%></h1></br>
+<img src="<%=listing.img%>" class="showImg"></br>
+<%=listing.authorName%></br>
+<%=listing.description%></br>
+<%=listing.price%></br>
 
+<nav>
+  <a class="editButton" href="/listings/<%=listing.id%>/edit">Edit</a></br>
+  <a class="editButton" href="/listings">Back to Listings</a>
+</nav>
 
 
 <%- include('footer.ejs') %>
