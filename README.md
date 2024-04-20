@@ -13,3 +13,6 @@ Notes/unfinished ideas:
   switching to a model that actually allows purchases
   create a login feat 
   store user purchases on account to make it easier to find what products they have
+
+  Deploy URL:
+  https://tennis-pro-shop-98cac16e3fa6.herokuapp.com/home
